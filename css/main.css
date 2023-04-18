@@ -19,16 +19,14 @@ body {
   background: #000;
 }
 
-#section {
-  width: 100% !important;
-}
-#section .capture-canvas {
+.capture-canvas {
   position: fixed;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
 }
-#section #capture {
+
+#capture {
   position: fixed;
   left: 50%;
   top: 50%;
@@ -36,13 +34,14 @@ body {
   width: 619px;
   height: 929px;
 }
-#section #capture img {
+#capture img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: inline-block;
 }
-#section .remember {
+
+.remember {
   z-index: 999;
   display: block;
   width: 80%;
@@ -58,10 +57,11 @@ body {
   margin: 0px auto;
   letter-spacing: 0.05em;
 }
-#section .remember .w {
+.remember .w {
   opacity: 0;
 }
-#section .support {
+
+.support {
   position: fixed;
   right: 0px;
   bottom: 0px;
@@ -69,7 +69,7 @@ body {
   display: flex;
   z-index: 1000;
 }
-#section .support a {
+.support a {
   width: 100px;
   height: 100px;
   margin: 10px auto;
@@ -79,10 +79,10 @@ body {
   backface-visibility: hidden;
   transition: all 150ms ease;
 }
-#section .support a:hover {
+.support a:hover {
   transform: scale(1.1);
 }
-#section .support a img {
+.support a img {
   margin-top: 10px;
   width: 50%;
   height: 50%;
