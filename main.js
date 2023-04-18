@@ -5,10 +5,10 @@ document.addEventListener("DOMContentLoaded", function(){
 
 
   gsap.registerPlugin(ScrollTrigger);
-  ScrollTrigger.addEventListener("refresh", () => {
-    console.log('refresh')
-  })
-  let mobile = window.matchMedia('(max-width: 1023px)').matches
+  // ScrollTrigger.addEventListener("refresh", () => {
+  //   console.log('refresh')
+  // })
+  // let mobile = window.matchMedia('(max-width: 1023px)').matches
 
 
 
