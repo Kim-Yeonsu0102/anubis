@@ -1,10 +1,16 @@
 console.clear();
 
 
-window.onload = function() {
+document.addEventListener("DOMContentLoaded", function(){
 
 
-gsap.registerPlugin(ScrollTrigger);
+  gsap.registerPlugin(ScrollTrigger);
+  ScrollTrigger.addEventListener("refresh", () => {
+    console.log('refresh')
+  })
+  let mobile = window.matchMedia('(max-width: 1023px)').matches
+
+
 
 const COUNT = 75;
 const REPEAT_COUNT = 3;
@@ -112,4 +118,4 @@ var sc1 = gsap.timeline({
 
 
 
-}
+})
