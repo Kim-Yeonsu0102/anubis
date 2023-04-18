@@ -25,10 +25,10 @@ body {
 	background:#000;
 
   
-  @media (min-width: #{$breakpoint-mobile}) and (max-width: #{$breakpoint-desktop - 1px}) {
-    width:100%;
-    height: auto;
-  }
+  // @media (min-width: #{$breakpoint-mobile}) and (max-width: #{$breakpoint-desktop - 1px}) {
+  //   width:100%;
+  //   height: auto;
+  // }
 }
 
 
@@ -53,10 +53,10 @@ width: 100% !important;
 	width:619px;
 	height: 929px;
 
-  @media (min-width: #{$breakpoint-mobile}) and (max-width: #{$breakpoint-desktop - 1px}) {
-    width:100%;
-    height: fit-content;
-  }
+  // @media (min-width: #{$breakpoint-mobile}) and (max-width: #{$breakpoint-desktop - 1px}) {
+  //   width:100%;
+  //   height: fit-content;
+  // }
 
 	
 	img {
